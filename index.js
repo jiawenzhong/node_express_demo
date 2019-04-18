@@ -1,15 +1,15 @@
 
 // const EventEmitter = require('events');
 
-const Logger = require('./logger');//create a class from logger.js
-const logger = new Logger();//create an object from Logger class
+// const Logger = require('./logger');//create a class from logger.js
+// const logger = new Logger();//create an object from Logger class
 
-// //register a listener
-logger.on('message', (data) => {// e, eventArg
-    console.log('Called Listener: ', data);
-});
+// // //register a listener
+// logger.on('message', (data) => {// e, eventArg
+//     console.log('Called Listener: ', data);
+// });
 
-logger.log('Hello World!');
+// logger.log('Hello World!');
 
 // const http = require('http');
 
